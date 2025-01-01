@@ -9,8 +9,10 @@ const router = createRouter({
       // component: () => import("../views/OneMap.vue"),
       // name: "可视化笛卡尔坐标系",
       // component: () => import("../views/TestCartesian.vue"),
-      name: "Cesium中的Camera(1)",
-      component: () => import("../views/TestCamera.vue"),
+      // name: "Cesium中的Camera(1)",
+      // component: () => import("../views/TestCamera.vue"),
+      name: "Cesium中的Camera(2)",
+      component: () => import("../views/TestCamera2.vue"),
     },
   ],
 });
